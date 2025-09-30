@@ -1,8 +1,8 @@
 <nav>
     <ul>
         <li><a href="{{Route('home')}}">Home</a></li>
-        <li><a href="/alugar">Alugar</a></li>
-        <li><a href="/comprar">Comprar</a></li>
+        <li><a href="{{Route('home', ['modalidade' => 'alugar'])}}">Alugar</a></li>
+        <li><a href="{{Route('home', ['modalidade' => 'comprar'])}}">Comprar</a></li>
         <li><a href="{{Route('sobre')}}">Sobre</a></li>
         <li><a href="{{Route('blog')}}">Blog</a></li>
         <li><a href="{{Route('contato')}}">Contato</a></li>
