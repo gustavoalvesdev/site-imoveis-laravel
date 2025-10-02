@@ -1,12 +1,4 @@
-<nav>
-    <ul>
-        <li><a href="{{Route('home')}}">Home</a></li>
-        <li><a href="/alugar">Alugar</a></li>
-        <li><a href="/comprar">Comprar</a></li>
-        <li><a href="{{Route('sobre')}}">Sobre</a></li>
-        <li><a href="{{Route('blog')}}">Blog</a></li>
-        <li><a href="{{Route('contato')}}">Contato</a></li>
-    </ul>
-</nav>
-
+@extends('layout')
+@section('content')
 <h1>Aqui estão as novidades do nosso blog no dia {{$current_date}}</h1>
+@endsection
